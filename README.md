@@ -44,15 +44,15 @@ Your characters page should include the ability to filter the API by race. The p
 
 ### Rubric
 
-| Task                                                                                          | Points |
-| --------------------------------------------------------------------------------------------- | ------ |
-| React router properly configured in App.js                                                    | 5      |
-| Home Page with header and links (using `<NavLink>` components)                                | 2      |
-| Films page rendered by React router at `/films` which displays a list of films                | 3      |
-| Books page rendered by React router at `/books` which displays a list of books                | 3      |
-| Characters page rendered by React router at `/characters` which displays a list of characters | 3      |
-| Characters can be filtered by race                                                            | 3      |
-| Utilizes container / presentational component pattern                                         | 1      |
+| Task                                                                           | Points                                                                                        |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --- |
+| DONE                                                                           | React router properly configured in App.js                                                    | 5   |
+| DONE                                                                           | Home Page with header and links (using `<NavLink>` components)                                | 2   |
+| DONE                                                                           | Films page rendered by React router at `/films` which displays a list of films                | 3   |
+| Books page rendered by React router at `/books` which displays a list of books | 3                                                                                             |
+| DONE                                                                           | Characters page rendered by React router at `/characters` which displays a list of characters | 3   |
+| Characters can be filtered by race                                             | 3                                                                                             |
+| DONE                                                                           | Utilizes container / presentational component pattern                                         | 1   |
 
 ### Stretch Goals (Up to 2 additional points)
 

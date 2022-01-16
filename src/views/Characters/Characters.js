@@ -5,6 +5,7 @@ import Characterlist from '../../components/Characters/CharacterList';
 import { useState, useEffect } from 'react';
 export default function Characters() {
   const [characters, setCharacters] = useState([]);
+  const [race, setRace] = useState(['All']);
 
   useEffect(() => {
     const getCharacters = async () => {
@@ -16,7 +17,7 @@ export default function Characters() {
 
   return (
     <div>
-      <Characterlist characters={characters} />
+      <Characterlist characters={characters} race={race} setRace={setRace} />
     </div>
   );
 }
