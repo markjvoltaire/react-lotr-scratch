@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 import Films from './views/Films/Films';
 import Characters from './views/Characters/Characters';
-import BookList from './components/Books/BookList';
+import Books from './views/Books/Books';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
 
         <Switch>
           <Route exact path="/films" component={Films} />
-          <Route exact path="/books" component={BookList} />
+          <Route exact path="/books" component={Books} />
           <Route exact patch="/characters" component={Characters} />
         </Switch>
       </BrowserRouter>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function FilmsList({ films }) {
-  console.log(films);
   return (
     <div>
       <div className="films">
